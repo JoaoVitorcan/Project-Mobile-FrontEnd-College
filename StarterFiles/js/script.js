@@ -1,7 +1,8 @@
 
 $(document).ready(function () {
 
-    $("#mobile-hamburger").on("click", function () {
-      $("nav").slideToggle();
+    $("#menu-mobile").on("click", function () {
+      $("header nav").slideToggle();
     });
+
 });
