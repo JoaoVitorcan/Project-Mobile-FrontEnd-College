@@ -19,6 +19,10 @@
 
         // then open it by using the show() method
 
+        let m = new bootstrap.Modal('#modalForm');
+        m.show();
+
+
       }
 
       
